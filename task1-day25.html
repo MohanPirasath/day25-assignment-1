@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals API</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="task1-day25.css">
+
+</head>
+
+<body>
+
+    <!-- class of the div is container because i am using bootstrap -->
+    <div class="container">
+        <!-- class of the div is row because i am using bootstrap -->
+        <div class="row">
+            <!-- class of the div is col because i am using bootstrap -->
+            <div class="col">
+                <!-- h1 tag is used for the heading to fit in correct size -->
+                <h1>Animals photos get loaded and refresh while the refresh button get clicks </h1>
+                <!-- class of the div is result because this div is carrying the three result images -->
+                <div class="results ">
+
+                    <!-- class of the div is fox_result because its going to carry the result of fox -->
+                    <div class="result fox_result">
+                        <!-- p tag is used to show the notes that the fox image is going to load here -->
+                        <p>Get Random fox images</p>
+                    </div>
+                    <!-- class of the div is dog_result because its going to carry the result of dog -->
+                    <div class="result dog_result">
+                        <!-- p tag is used to show the notes that the dog image is going to load here -->
+                        <p>Get Random Dog images</p>
+                    </div>
+                    <!-- class of the div is one_result because its going to carry the result of ramdom one -->
+                    <div class="result one_result">
+                        <!-- p tag is used to show the notes that the any one animal image is going to load here -->
+                        <p>Get one zoo Animal images Randomly</p>
+                    </div>
+                </div>
+                <!-- div is created for the buttons ,so the class of the div is button -->
+                <div class="button">
+                    <!-- this button is created for fox image so the class of the button is fox_btn -->
+                    <button class="button fox_btn">Refresh and Get fox</button>
+                    <!-- this button is created for dog image so the class of the button is dog_btn -->
+                    <button class="button dog_btn">Refresh and Get dog</button>
+                    <!-- this button is created for random one image so the class of the button is one_btn -->
+                    <button class="button one_btn">Refresh and Get any animal</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- this script file is linked according by the instruction of zenclass -->
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+    <!-- this script file is linked for the intraction of the application -->
+    <script src="task1-day25.js"></script>
+</body>
+
+</html>
